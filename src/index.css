@@ -88,6 +88,34 @@ header nav ul li:hover {
   color: var(--white-0);
 }
 
+.about {
+  display: inline-block;
+  padding: 32px 64px;
+}
+
+.about h2 {
+  font-size: 32px;
+  color: var(--red-0);
+  text-align: center;
+}
+
+.about-info {
+  display: flex;
+  align-items: center;
+}
+
+.about img {
+  width: 20%;
+  height: auto;
+  float: left;
+}
+
+.about p {
+  width: 80%;
+  padding: 32px;
+  float: right;
+}
+
 footer {
   width: 100%;
   padding: 40px 35px;
