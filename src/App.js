@@ -1,9 +1,7 @@
 import React from 'react';
 import './App.css';
 import Header from './components/Header';
-import About from './components/About';
-import Project from './components/Project';
-import ContactForm from './components/Contact';
+import PortfolioContainer from './components/PortfolioContainer'
 import Footer from './components/Footer';
 
 function App() {
@@ -11,7 +9,10 @@ function App() {
     <div>
       <Header></Header>
       <main>
-        
+        {/* PortfolioContainer component renders About component by default.
+            Else, it renders either Projects or Contact component
+            based on which Nav component (nested in Header component) tab is selected. */}
+        <PortfolioContainer></PortfolioContainer> 
       </main>
       <Footer></Footer>
     </div>
