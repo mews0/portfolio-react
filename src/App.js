@@ -3,6 +3,7 @@ import './App.css';
 import Header from './components/Header';
 import About from './components/About';
 import Project from './components/Project';
+import ContactForm from './components/Contact';
 import Footer from './components/Footer';
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
     <div>
       <Header></Header>
       <main>
+        <ContactForm></ContactForm>
       </main>
       <Footer></Footer>
     </div>
