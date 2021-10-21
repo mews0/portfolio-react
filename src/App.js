@@ -11,7 +11,7 @@ function App() {
     <div>
       <Header></Header>
       <main>
-        <ContactForm></ContactForm>
+        
       </main>
       <Footer></Footer>
     </div>
