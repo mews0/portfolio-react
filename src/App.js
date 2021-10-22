@@ -8,12 +8,7 @@ function App() {
   return (
     <div>
       <Header></Header>
-      <main>
-        {/* PortfolioContainer component renders About component by default.
-            Else, it renders either Projects or Contact component
-            based on which Nav component (nested in Header component) tab is selected. */}
-        <PortfolioContainer></PortfolioContainer> 
-      </main>
+      <PortfolioContainer></PortfolioContainer>
       <Footer></Footer>
     </div>
   );

@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import Nav from '../Nav';
 import About from '../About';
 import Project from '../Project';
 import ContactForm from '../Contact';
@@ -21,11 +20,12 @@ function PortfolioContainer() {
   };
 
   return (
-    <>
+    <div>
       {/* HOW DO I USE handlePageChange() TO CONDITIONALLY RENDER PAGE BASED ON NAV TAB SELECTED? */}
+      
       {/* call the renderPage function passing in the currentPage */}
       <div>{renderPage(currentPage)}</div>
-    </>
+    </div>
   );
 }
 
