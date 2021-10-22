@@ -18,13 +18,12 @@ function PortfolioContainer() {
         return <About />;
     }
   };
+  
+  {/* HOW DO I USE handlePageChange() TO CONDITIONALLY RENDER PAGE BASED ON NAV TAB SELECTED? */}
 
   return (
     <div>
-      {/* HOW DO I USE handlePageChange() TO CONDITIONALLY RENDER PAGE BASED ON NAV TAB SELECTED? */}
-      
-      {/* call the renderPage function passing in the currentPage */}
-      <div>{renderPage(currentPage)}</div>
+      {renderPage(currentPage)}
     </div>
   );
 }

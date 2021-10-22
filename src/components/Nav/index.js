@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Nav(props) {
+function Nav() {
   const tabs = ['About', 'Projects', 'Contact']; // add resume in future
   return (
     <nav>
@@ -9,8 +9,6 @@ function Nav(props) {
           <li key={tab}>
             <a
               href={'#' + tab.toLowerCase()}
-              // whenever a tab is clicked on, the current page is set through the handlePageChange props
-              onClick={() => props.handlePageChange(tab)}
             >
               {tab}
             </a>
